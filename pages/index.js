@@ -12,6 +12,8 @@ export default function Home() {
       throw new Error("Not implemented")
     }, 5000);
   }, [])
+
+  throw new Error('Error occurred in MyComponent.');
   
   return (
 
