@@ -17,7 +17,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
        
 
-       Hello 
+       Hello ${name}
       </main>
     </>
   )
