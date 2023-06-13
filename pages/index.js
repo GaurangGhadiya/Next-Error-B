@@ -12,8 +12,7 @@ export default function Home() {
       throw new Error("Not implemented")
     }, 5000);
   }, [])
-
-  throw new Error('Error occurred in MyComponent.');
+  
   
   return (
 
@@ -29,6 +28,7 @@ export default function Home() {
        
 
        Hello 
+       <button onClick={() =>  {throw new Error('Error occurred in MyComponent.')}}>Click</button>
       </main>
     </>
   )
